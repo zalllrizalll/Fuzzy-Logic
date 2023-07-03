@@ -50,7 +50,7 @@ public class PemakaianListrik extends Fuzzy{
             }
         }
     }
-    
+    // Overloading
     public static void rules(float x, float y, float z, String label){
         switch(label){
             case "rendah" -> {
