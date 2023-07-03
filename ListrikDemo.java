@@ -6,7 +6,13 @@ public class ListrikDemo {
         PemakaianListrik luas = new PemakaianListrik();
         PemakaianListrik teganganListrik = new PemakaianListrik();
         PemakaianListrik perabotanRumah = new PemakaianListrik();
-
+        
+        // Header
+        System.out.println("-----------------------------------");
+        System.out.println("|||\t Fuzzy Mamdani Logic \t|||");
+        System.out.println("|||\t   M.Rizal Pratama \t|||");
+        System.out.println("|||\t   A11.2021.13329 \t|||");
+        System.out.println("-----------------------------------");
         // Input Nilai
         Scanner sc = new Scanner(System.in);
         System.out.print("Input nilai x untuk Luas Rumah [m^2]: ");
